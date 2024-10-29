@@ -1,0 +1,2 @@
+C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Propuesta-de-Examen/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Propuesta-de-Examen/cmake-build-debug/CMakeFiles/rebuild_cache.dir
