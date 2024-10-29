@@ -1,4 +1,5 @@
-cmake_minimum_required(VERSION 3.15)
-project(PropuestaDeExamen)
-
-add_executable(Propuesta-de-Examen main.c)
+add_executable(Propuesta-de-Examen main.cpp
+        Triple_Pitagorico.cpp
+        Triple_Pitagorico.h
+        Triple_Pitagorico.cpp
+)

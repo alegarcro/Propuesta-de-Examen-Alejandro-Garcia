@@ -251,6 +251,15 @@ Project_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Propuesta-de-Examen
 
+//Value Computed by CMake
+PropuestaDeExamen_BINARY_DIR:STATIC=C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Propuesta-de-Examen/cmake-build-debug
+
+//Value Computed by CMake
+PropuestaDeExamen_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+PropuestaDeExamen_SOURCE_DIR:STATIC=C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Propuesta-de-Examen
+
 
 ########################
 # INTERNAL cache entries

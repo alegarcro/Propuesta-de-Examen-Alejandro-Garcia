@@ -40,6 +40,45 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = C$:/Users/Alex$ Garcia/Desktop/NOCIONES$ CLAVE(2)/Propuesta-de-Examen/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target Propuesta-de-Examen
+
+
+#############################################
+# Order-only phony target for Propuesta-de-Examen
+
+build cmake_object_order_depends_target_Propuesta-de-Examen: phony || .
+
+build CMakeFiles/Propuesta-de-Examen.dir/main.cpp.obj: CXX_COMPILER__Propuesta-de-Examen_unscanned_Debug C$:/Users/Alex$ Garcia/Desktop/NOCIONES$ CLAVE(2)/Propuesta-de-Examen/main.cpp || cmake_object_order_depends_target_Propuesta-de-Examen
+  DEP_FILE = CMakeFiles\Propuesta-de-Examen.dir\main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Propuesta-de-Examen.dir
+  OBJECT_FILE_DIR = CMakeFiles\Propuesta-de-Examen.dir
+
+build CMakeFiles/Propuesta-de-Examen.dir/Triple_Pitagorico.cpp.obj: CXX_COMPILER__Propuesta-de-Examen_unscanned_Debug C$:/Users/Alex$ Garcia/Desktop/NOCIONES$ CLAVE(2)/Propuesta-de-Examen/Triple_Pitagorico.cpp || cmake_object_order_depends_target_Propuesta-de-Examen
+  DEP_FILE = CMakeFiles\Propuesta-de-Examen.dir\Triple_Pitagorico.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Propuesta-de-Examen.dir
+  OBJECT_FILE_DIR = CMakeFiles\Propuesta-de-Examen.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Propuesta-de-Examen
+
+
+#############################################
+# Link the executable Propuesta-de-Examen.exe
+
+build Propuesta-de-Examen.exe: CXX_EXECUTABLE_LINKER__Propuesta-de-Examen_Debug CMakeFiles/Propuesta-de-Examen.dir/main.cpp.obj CMakeFiles/Propuesta-de-Examen.dir/Triple_Pitagorico.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Propuesta-de-Examen.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Propuesta-de-Examen.exe
+  TARGET_IMPLIB = libPropuesta-de-Examen.dll.a
+  TARGET_PDB = Propuesta-de-Examen.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -66,6 +105,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Propuesta-de-Examen: phony Propuesta-de-Examen.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -74,7 +115,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Propuesta-de-Examen/cmake-build-debug
 
-build all: phony
+build all: phony Propuesta-de-Examen.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.
